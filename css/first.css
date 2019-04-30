@@ -1,0 +1,44 @@
+*{
+    font-family: Verdana, sans-serif;
+}
+body {
+  margin: auto;
+  display: flex;
+  font-size: 20px;
+}
+
+.leon{
+  text-align:center;
+  margin:3%;
+}
+
+.box{
+ box-shadow: 2px 2px 2px 2px black;
+ padding: 3%;
+ margin: 3%;
+ }
+
+
+@media (min-device-width:320px) and (max-device-width:480px) {
+body{
+  flex-wrap: wrap;
+}
+.leon{
+  margin: auto;
+  margin-top: 2%;
+  text-align:center;
+}
+}
+
+@media (min-device-width:481px) and (max-device-width:780px) {
+body{
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.leon{
+  margin: auto;
+  margin-top: 2%;
+  text-align:center;
+}
+}
