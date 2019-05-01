@@ -40,7 +40,7 @@ footer{
   height : 1.5em;
 }
 
-/* media queries */
+/* adding media queries */
 @media (min-device-width:320px) and (max-device-width:480px) {
   .box{
     flex-wrap: wrap;
