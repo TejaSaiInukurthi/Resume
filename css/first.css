@@ -29,3 +29,16 @@ body{
   text-align:center;
 }
 }
+
+@media (min-device-width:481px) and (max-device-width:780px) {
+body{
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.leon{
+  margin: auto;
+  margin-top: 2%;
+  text-align:center;
+}
+}
